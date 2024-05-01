@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans+Semi+Condensed:ital,wght@0,1..1000;1,1..1000&display=swap');  
+*{  margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+.sidebar{
+height: 100vh;
+transition: transform 0.3s ease-in;
+position: absolute;
+font-weight: bold;
+}
+.sidebar nav{
+padding: 40px;
+padding-left: 10px;
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 20px;
+    padding: 25px 0;
+}
+.sidebar li a {
+    text-decoration: none;
+    color: black
+}
+.main{
+
+    width: 10v;
+}
+.container{
+    display: flex;
+}
+
+.infoContainer{
+   //background-color:green;
+    height: 55vh;
+    width: 85vw;
+    margin-top: 8vh;
+    margin-left: 24vh;
+    display: flex;
+    justify-content: space-around;
+}
+.aboutt{
+    color: rgb(55, 53, 53);
+    font-size: 3vh;
+    margin: 9px;
+    padding: 5px;
+    font-family: "Sofia Sans Semi Condensed", sans-serif;
+}
+.devInfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: "Source Code Pro", monospace;
+}
+.hello{
+    font-size: 25px;
+    margin: 30px 0 9px;
+}
+.Name{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: "Fira Sans", sans-serif;
+}
+
+.btn{
+    margin-top: 34px;
+    border-radius: 22px;
+    padding: 9px 14px;
+    color: white;
+    background-color: black;
+    font-weight: bold;
+    font-size: 12px;
+    margin-top: 25px;
+    cursor: pointer;
+}
+.btn-sm{
+    font-size: 15px;
+}
+.btn:hover{
+    color:black ;
+  background-color: white;
+}
+.aboutMe{
+    font: size 25px; ;
+    font-family: "Fira Sans", sans-serif;   
+    margin-top: 15px;
+}
+.social{
+    font-size: 40px;
+    padding-top: 20px;
+    color: rgb(43, 43, 217);
+}
+
+.profile{
+    height: 38vh;
+    display: flex;
+    padding-right: 40px;
+    margin-top: 40px;
+}
+.contactForm h1{
+font-family: "Source Code Pro", monospace;
+text-align: center;
+}
+
+h5{
+    padding-left: 100px;
+    font-size: 17px;
+}
+.contactForm{
+font-family: "Fira Sans", sans-serif;   
+padding: 0 34px;
+padding-top: 100px;
+margin: 0 150px;
+}
+.contactForm form div input{
+    padding: 3px;
+    width: 14vw;
+    border-radius: 5px;
+    margin: 6px 0;
+}
+.contactForm form div{
+    padding: 5px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+#emailHelp{
+    color: midnightblue;
+    font-size: 9px;
+    margin: 0 5px;
+}
+#form-check{
+    flex-direction: row;
+}
+#form-check input{
+    width: 20px;
+    margin: 3px 0;
+}
+.intro{
+    margin: 0 155px;
+}
+h1{ 
+    font-size: 28px;
+margin-top: 28px;
+margin-left: 12px;
+font-weight: 400;
+}
+
+.intro h2{
+font-family: "Fira Sans", sans-serif;
+margin-top: 30px;
+margin-left: 19;
+}
+.skillcontainer{
+    padding: 10px;
+
+}
+.skill{
+    height: 6px;
+    width: 250px;
+    background-color: red;
+    border: 2px solid black;
+}
+.skillitem{
+    display: flex;
+    align-items: center;
+}
+.hundred{
+    width: 400px;
+    background-color: rgb(255, 170, 0);
+    height: 11px;
+}
+
+.fifty{
+width: 310px;
+background-color:yellow;
+height: 11px;
+}
+.t5{
+    width: 240px;
+    background-color: black;
+    height: 11px;
+}
+.t6{
+    width:380px ;
+    height: 11px;
+    background-color: aqua;
+}
+.sidebarGo{
+    transform: translate(-443px,0px);
+    position: absolute;
+}
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    top:10px;
+    left:10px;
+}
+.cross{
+    margin-left: 110px;
+}
+@media(max-width: 600px)  {
+*{
+
+}
+.profile{
+    height: 140px;
+    width: 140px;
+}
+.aboutt{
+    font-size: 2vh;
+}
+}
